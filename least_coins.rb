@@ -3,9 +3,9 @@ cents = gets.strip
 
 def least_coins(cents)
   coins = {
-    :quarters => 0 
-    :dimes => 0 
-    :nickels => 0 
+    :quarters => 0,
+    :dimes => 0,
+    :nickels => 0, 
     :pennies => 0 
   }
   
