@@ -33,6 +33,6 @@ while cents >= 1
   cents = cents - 1 
 end
 
-puts least_coins
 end
+puts least_coins
 
