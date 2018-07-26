@@ -32,6 +32,7 @@ end
 while cents >= 1 
   coins[:pennies] += 1 
   cents = cents - 1 
+  puts coins 
 end
 
 end
