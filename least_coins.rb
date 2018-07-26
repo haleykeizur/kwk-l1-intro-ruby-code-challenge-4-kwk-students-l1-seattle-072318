@@ -33,7 +33,7 @@ while cents >= 1
   coins[:pennies] += 1 
   cents = cents - 1 
 end
-
+ puts coins 
 end
 puts least_coins(cents)
 
