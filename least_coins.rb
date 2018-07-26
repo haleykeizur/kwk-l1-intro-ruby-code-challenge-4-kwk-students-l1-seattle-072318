@@ -1,5 +1,6 @@
 puts "Welcome to your least coins calculator. Please enter the number of the money you have:"
 cents = gets.strip
+cents = cents.to_i
 
 def least_coins(cents)
   coins = {
@@ -33,7 +34,6 @@ while cents >= 1
   cents = cents - 1 
 end
 
-puts coins 
 end
 puts least_coins(cents)
 
